@@ -2,6 +2,7 @@ const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 const clouds = document.querySelector('.clouds')
 const button = document.querySelector('.button')
+const buttonMobile = document.querySelector('.jump-mobile')
 
 const jump = function()  {
     mario.classList.add('jump');
